@@ -1,0 +1,61 @@
+html {
+    font-family: 'Courier Prime';
+    background: url(background.jpg);
+    background-size: cover;
+  }
+  
+  header {
+    color: rgba(180,149,94,255);
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    font-size: 20px;
+  }
+  
+  table {
+    line-height: 1.2;
+    color: white;
+    padding: 25px;
+    margin: auto;
+    max-width: 700px;
+    min-width: 400px;
+  }
+  
+  div.table {
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+  }
+  
+  td {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  tbody td {
+      background-color: rgba(4,2,15,255);
+      border: 1px solid rgba(180,149,94,255);
+  }
+  
+  thead td {
+      border: 2px solid rgba(4,2,15,255);
+      font-size: 18px;
+  }
+  
+  thead {
+    text-align: center;
+    color: white;
+    background-color: rgba(180,149,94,255);
+  }
+  

@@ -1,9 +1,130 @@
 <html>
+  <head>
+    <!--Tab Title and Link to CSS Sheet-->
+    <title>Arkimoz CSS Cheat Sheet</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <h1>Arkimoz</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <body>
+    <header>
+      <!--This is the Main Title-->
+      <h1>Arkimoz<br>CSS Cheat Sheet</h1>
+    </header>
 
+    <main>
+      <!--This section is for the Selectors-->
+      <div class="table">
+        <h2>Selectors</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>CSS</td>
+              <td>Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>*</td>
+              <td>all elements</td>
+            </tr>
+            <tr>
+              <td>div</td>
+              <td>all div tags</td>
+            </tr>
+            <tr>
+              <td>div,p</td>
+              <td>all divs and paragraphs</td>
+            </tr>
+            <tr>
+              <td>div p</td>
+              <td>paragraphs inside divs</td>
+            </tr>
+            <tr>
+              <td>div &gt p</td>
+              <td>all p tags, one level deep in div</td>
+            </tr>
+            <tr>
+              <td>div + p</td>
+              <td>p tags immediately after div</td>
+            </tr>
+            <tr>
+              <td>div ~ p</td>
+              <td>p tags preceded by div</td>
+            </tr>
+            <tr>
+              <td>.classname</td>
+              <td>all elements with class</td>
+            </tr>
+            <tr>
+              <td>#idname</td>
+              <td>element with ID</td>
+            </tr>
+            <tr>
+              <td>div.classname</td>
+              <td>divs with certain classname</td>
+            </tr>
+            <tr>
+              <td>div#idname</td>
+              <td>div with certain ID</td>
+            </tr>
+            <tr>
+              <td>#idname *</td>
+              <td>all elements inside #idname</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--This section is for the Attribute Selectors-->
+      <div class="table">
+        <h2>Attribute Selectors</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>CSS</td>
+              <td>Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>a[target]</td>
+              <td>links with a target attribute</td>
+            </tr>
+            <tr>
+              <td>a[target="_blank"]</td>
+              <td>links which open in new tab</td>
+            </tr>
+            <tr>
+              <td>[title~="chair"]</td>
+              <td>title element containing a word</td>
+            </tr>
+            <tr>
+              <td>[class^="chair"]</td>
+              <td>class starts with chair</td>
+            </tr>
+            <tr>
+              <td>[class|="chair"]</td>
+              <td>class starts with the chair word</td>
+            </tr>
+            <tr>
+              <td>[class*="chair"]</td>
+              <td>class contains chair</td>
+            </tr>
+            <tr>
+              <td>[class$="chair"]</td>
+              <td>class ends with chair</td>
+            </tr>
+            <tr>
+              <td>input[type="button"]</td>
+              <td>specified input type</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
 </html>
